@@ -10,9 +10,7 @@ Python API Package for gimmeproxy.com .
 
 ```
 proxy = GimmeProxyAPI(country="USA,UK")
-
 print proxy.ipPort()
-
 ```
 ### Result
 
