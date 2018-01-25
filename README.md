@@ -6,13 +6,23 @@ Python API Package for gimmeproxy.com .
 ![gimmeproxyapi](https://user-images.githubusercontent.com/16267182/35398153-eb5e9374-01f9-11e8-9cf0-1bf646ae2732.PNG)
 
 
-### Example
+### Examples
 
+### Choosing Country :
 ```
 proxy = GimmeProxyAPI(country="USA,UK")
-print proxy.ipPort()
+print proxy.get_ip_port()
 ```
-### Result
-
+#### Result:
 `200.21.21.157:8080`
+
+
+### Choosing Protocol :
+```
+proxy = GimmeProxyAPI(protocol="http")
+print proxy.get_curl()
+```
+#### Result:
+`http://200.21.21.157:8080`
+
 
