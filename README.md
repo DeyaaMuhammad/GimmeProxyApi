@@ -26,6 +26,6 @@ print proxy.get_curl()
 `http://200.21.21.157:8080`
 
 
-# Contribution & Sponsorship
+# Contribution
 Want to contribute? What are you waiting for? Fork it and hit up with a pull request.
 Mail me at contact@deyaa.me
