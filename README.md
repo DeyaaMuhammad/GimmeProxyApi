@@ -6,6 +6,8 @@ Python API Package for gimmeproxy.com .
 ![gimmeproxyapi](https://user-images.githubusercontent.com/16267182/35398153-eb5e9374-01f9-11e8-9cf0-1bf646ae2732.PNG)
 
 
+### Example
+
 ```
 proxy = GimmeProxyAPI(country="USA,UK")
 
